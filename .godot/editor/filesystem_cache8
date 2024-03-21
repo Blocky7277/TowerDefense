@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1711032527
+car2.png::CompressedTexture2D::5281918407132211084::1703004125::1703004125::1::::<><>::
+car3.png::CompressedTexture2D::1296912339184709060::1703005115::1703005115::1::::<><>::
+car.png::CompressedTexture2D::470432033778958650::1702917329::1702917329::1::::<><>::
+Enemy.gd::GDScript::-1::1703005808::0::1::::<>PathFollow2D<>::
+enemy.tscn::PackedScene::5237836187353862652::1703005808::0::1::::<><>::res://Enemy.gd
+Flat_tick_icon.svg.png::CompressedTexture2D::1542985411695532453::1701450571::1701450571::1::::<><>::
+game_logic.gd::GDScript::-1::1703005525::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::8892390046893935086::1700499495::1700499512::1::::<><>::
+main.tscn::PackedScene::8898408751949860651::1703005783::0::1::::<><>::uid://cgvinqv2abvpc::::res://enemy.tscn<>res://game_logic.gd

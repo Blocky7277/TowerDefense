@@ -1,0 +1,12 @@
+VisibleOnScreenNotifier2D
+VisibleOnScreenEnabler2D
+Timer
+Sprite2D
+AnimatedSprite2D
+Area2D
+CollisionShape2D
+PathFollow2D
+Line2D
+ColorRect
+Path2D
+Node

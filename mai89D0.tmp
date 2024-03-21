@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://dy1pqy3l7tvgt"]
+
+[ext_resource type="PackedScene" uid="uid://cgvinqv2abvpc" path="res://enemy.tscn" id="1_07qs6"]
+[ext_resource type="Script" path="res://game_logic.gd" id="1_trq74"]
+
+[sub_resource type="Curve2D" id="Curve2D_0525f"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 43, 36, 809.574, -79.37, -809.574, 79.37, 436, 115, 0, 0, 0, 0, 445, 546, 0, 0, 0, 0, 559, 543, 0, 0, 0, 0, 542, 122, 0, 0, 0, 0, 683, 121, 0, 0, 0, 0, 674, 540, 0, 0, 0, 0, 828, 542, 0, 0, 0, 0, 821, 111, 0, 0, 0, 0, 1042, 122, 0, 0, 0, 0, 1064, 540, 0, 0, 0, 0, 1144, 538, 0, 0, 0, 0, 1145, 626, 0, 0, 0, 0, 812, 626, 0, 0, 0, 0, -63, 630)
+}
+point_count = 15
+
+[sub_resource type="GDScript" id="GDScript_v3nce"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_trq74")
+enemy_scene = ExtResource("1_07qs6")
+
+[node name="EnemyPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_0525f")
+script = SubResource("GDScript_v3nce")
+
+[node name="Line2D" type="Line2D" parent="EnemyPath"]
+points = PackedVector2Array(42, 34, 695, 53, 715, 68, 683, 84, 539, 106, 314, 131, 211, 150, 119, 187, 77, 240, 76, 274, 90, 304, 128, 350, 218, 422, 447, 542, 560, 541, 545, 121, 682, 119, 672, 534, 824, 534, 821, 106, 1040, 121, 1062, 538, 1143, 535, 1142, 624, -27, 630)
